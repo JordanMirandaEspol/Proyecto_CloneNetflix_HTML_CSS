@@ -123,11 +123,20 @@ button.probar{
 .imagentv img{
     box-sizing: border-box;
     display: flex;
+    position: relative;
     margin-left: 100px;
     flex: 0 1 auto;
-    height: 400px;
+    height: 300px;
     width: 70%;
+    z-index: 3;
 }
+.imagentv video{
+    width: 250px;
+    position: absolute;
+    transform: translate(150px,-230px);
+    z-index: 2; 
+}
+
 .imagendis img{
     box-sizing: border-box;
     display: flex;
