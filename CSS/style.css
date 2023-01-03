@@ -1,0 +1,146 @@
+/*Estilos generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+/*Fondo*/
+html,body, .cover{
+    height: 100%;
+}
+.cabecera{
+	background: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+}
+.cover{
+background-image: url(../src/fondo.jpg);
+border-bottom: 8px solid #222;
+
+}
+
+nav{
+	margin: 0 3.5rem;
+	padding-top: 26px;
+}
+
+.cabecera img{
+    height: 45px;
+    float: left;
+}
+.cabecera button{
+    padding: 10px 17px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+	background: #e50914;
+	border-radius: 4px;
+    float: right;
+}
+.cabecera button:hover{
+    cursor: pointer;
+}
+.cabecera img:hover{
+    cursor: pointer;
+}
+.presentacion{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4.125rem;
+
+}
+h2{
+	font-size: 1.625rem;
+
+}
+p{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+input{
+    width: 455px;
+    height: 60px;
+    float: left;
+    margin-left: 80px;
+    font-size: 20px;
+}
+button.probar{
+    border: solid 1px black;
+    margin-right: 125px;
+    height: 65px;
+    width: 200px;
+    float: right;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 0px;
+}
+.tv,.descarga,.disfruta{
+    background: black;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative;
+}
+.contetv,.desc,.dis{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.mensaje,.mensajedes,.mensajedis{
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 52%;
+    z-index: 3;
+}
+.mensaje,.mensajedes,.mensajedis h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+.mensaje,.mensajedes.mensajedis h2{
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+.imagentv{
+    float: left;
+}
+.imagentv img{
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 100px;
+    flex: 0 1 auto;
+    height: 400px;
+    width: 70%;
+}
+.imagendis img{
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 100px;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 560px;
+}
+.imagendes img{
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 10px;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 70%;
+}
