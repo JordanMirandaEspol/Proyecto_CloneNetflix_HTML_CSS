@@ -140,10 +140,18 @@ button.probar{
 .imagendis img{
     box-sizing: border-box;
     display: flex;
+    position: relative;
     margin-left: 100px;
     flex: 0 1 auto;
     height: 100%;
     width: 560px;
+    z-index: 3;
+}
+.imagendis video{
+    width: 327px;
+    position: absolute;
+    transform: translate(213px,-370px);
+    z-index: 2; 
 }
 .imagendes img{
     box-sizing: border-box;
